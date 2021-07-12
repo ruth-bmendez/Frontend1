@@ -1,0 +1,81 @@
+:root {
+    --brand: #F0A83E;
+    --second-color: #3C2313;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0mm;
+    border: 0mm;
+    margin: 0mm;
+}
+
+.menu {
+    display: flex;
+    background-color: var(--brand);
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 415px;
+}
+
+.logo {
+    height: 19px;
+    width: 132.0332489013672px;
+    left: 40px;
+    top: 17px;
+    border-radius: 0px;
+}
+
+.menu-barritas {
+    height: 20px;
+    width: 20px;
+    left: 354px;
+    top: 17px;
+    border-radius: 0px;
+}
+
+/* .bowl {
+    display: flex;
+    
+    width: 414px;
+    
+    top: 54px;
+    
+} */
+
+.full {
+   
+    width: 414px;
+    height: 440px;
+    background: url('/img/bowl-and-pet-daities-on-green-background_1.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.saludo {
+    padding: 0;
+    margin: 148px 25px 238px 24px;
+    border: 0;
+    height: 54px;
+    width: 365px;
+    left: 648px;
+    top: 237px;
+    border-radius: 5px;
+    align-content: center;
+    
+}
+
+
+.btn-comederos {
+    height: 49px;
+    width: 141px;
+    left: 767px;
+    top: 334px;
+    border-radius: 5px;
+    background-color: var(--brand);
+}

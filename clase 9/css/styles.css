@@ -1,0 +1,102 @@
+:root {
+  --primary: #f0a83e;
+}
+
+body, button {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.topbar {
+  background-color: #222222;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  font-size: 10px;
+  padding: 0 1rem;
+}
+
+.topbar p {
+  margin: 0;
+}
+
+.topbar button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: var(--primary);
+  color: #fff;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0 0 0 1rem ;
+  font-size: 13px;
+}
+.navbar a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+.navbar a img{
+  margin-right: .2rem;
+}
+
+.logo {
+  width: 166px;
+  height: 23px;
+  cursor: pointer;
+}
+
+.slide {
+  height: 409px;
+  background-image: url("/img/bowl-and-pet-daities-on-green-background_1.png");
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slide-text-container {
+  width: 50vw;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-text-container .title {
+  background-color: white;
+  font-size: 30px;
+  border-radius: 5px;
+  line-height: 54px;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.slide-text-container button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  width: 141px;
+  height: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+}

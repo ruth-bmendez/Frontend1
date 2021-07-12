@@ -1,0 +1,46 @@
+
+.boxHeader{
+    position: absolute;
+    width: 1024px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color:  #1CD1B0;
+    padding: 10px;
+
+}
+.heroes{
+    position: absolute;
+    height: 101px;
+width: 1024px;
+left: 0px;
+top: 38px;
+border-radius: 0px;
+background-color:#00669F;
+box-shadow: 0px 10px 7px rgba(0, 0,0, 0.25);
+}
+.main{
+    position: absolute;
+    height: 532px;
+    width: 960px;
+   left: 32px;
+   top: 290px;
+   border-radius: [object Object]px;
+
+}
+.peli1,  .peli3{
+    height: 336px;
+width: 300px;
+left: 32px;
+top: 483px;
+border-radius: 0px;
+
+}
+.peli2{
+    right: 65px;
+}
+.superHeroe{
+    text-align: center;
+    border-radius: 50%;
+}
