@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #e5e5e5;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+.isotipo {
+    display: flex;
+    gap: 1rem;
+}
+
+.isologo {}
+
+.logotipo {}
+
+nav {
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+    height: 100%;
+    color: white;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.delivery, .podio {
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.295);
+}
+
+.delivery {
+    width: 100%;
+    height: 22rem;
+    background-image: url('/img/delivery.jpg');
+    background-size: cover;
+    padding: 1rem;
+}
+
+.delivery h1 {
+    color: red;
+}
+
+span {
+    color: white;
+}
+
+.podio {
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.podio h1 {
+    color: red;
+}
+
+.podio-div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.podio-div h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+footer ul li:last-child {
+    margin: 0;
+}
